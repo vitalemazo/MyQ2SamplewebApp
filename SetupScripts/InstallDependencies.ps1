@@ -1,0 +1,1 @@
+echo "Use this script to install any dependency your application might need. Otherwise, feel free to delete it or leave it as it is."
