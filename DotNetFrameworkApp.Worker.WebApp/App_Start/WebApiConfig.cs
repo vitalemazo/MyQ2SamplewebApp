@@ -9,7 +9,16 @@ namespace DotNetFrameworkApp.Worker.WebApp
             // Web API configuration and services
 
             // Web API routes
+
+
             config.MapHttpAttributeRoutes();
+
+
+            config.Routes.MapHttpRoute(
+            name: "HelloWorldApi",
+            routeTemplate: "api/HelloWorld/{id}",
+            defaults: new { controller = "HelloWorld", id = RouteParameter.Optional }
+        );
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
