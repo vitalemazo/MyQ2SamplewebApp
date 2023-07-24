@@ -1,7 +1,7 @@
 # Q2 note this is not a 4.5 framework having issues...
 
 
-# here is the 4.8 version DotNetFrameworkApp using aws  codepipline :-) 
+# here is the 4.8 version DotNetFrameworkApp diff app using aws  codepipline :-) 
 
 
 here we go 
